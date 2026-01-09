@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מבוא למערכות מידע וניהול נתונים</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>מבוא למערכות מידע וניהול נתונים</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">אודות הקורס</a></li>
+                <li><a href="#course-content">הochוכת הקורس</a></li>
+                <li><a href="#instructors">محמlooות המרצה</a></li>
+                <li><a href="#contact">צור קשר</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>אודות הקורס</h2>
+        <p>הקורס הזה הוא מעבר לשנת תקורה בתחום מערכות מידע וניהול נתונים. מתייחס לכל המגמות העדכניות בתחום.</p>
+    </section>
+
+    <section id="course-content">
+        <h2>הochוכת הקורס</h2>
+        <!-- הוסיפו את תוכן הקורס כאן -->
+    </section>
+
+    <section id="instructors">
+        <h2>محמlooות המרצה</h2>
+        <!-- הוסיפו את מعلومات המרצה כאן -->
+    </section>
+
+    <section id="contact">
+        <h2>צור קשר</h2>
+        <form action="#" method="post">
+            <label for="name">שם:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">אימייל:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">הודעה:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="שליחה">
+        </form>
+    </section>
+
+    <footer>
+        <p>כל הזכויות שמורות &copy; 2023 מני וניהול נתונים</p>
+    </footer>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
